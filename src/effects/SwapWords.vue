@@ -1,11 +1,11 @@
 <template>
   <div
-      class="text-4xl font-semibold tracking-tight sm:text-6xl"
-      id="word-container"
+    class="text-4xl font-semibold tracking-tight sm:text-6xl"
+    id="word-container"
   >
     <span v-if="firstPart" :class="textColor" class="px-2">{{
-        firstPart
-      }}</span>
+      firstPart
+    }}</span>
     <span v-if="secondPart" class="text-primary-500">{{ secondPart }}</span>
     <span class="cursor">|</span>
   </div>
